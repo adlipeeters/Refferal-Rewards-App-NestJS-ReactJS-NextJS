@@ -1,0 +1,51 @@
+npm install --save @nestjs/typeorm typeorm mysql2
+nest g module user
+
+//class validation
+npm install class-validator --save
+npm install class-transformer --save
+
+//de pus validation pipe in main.ts
+ app.useGlobalPipes(new ValidationPipe());
+
+ npm install bcryptjs @types/bcryptjs
+
+ npm install --save @nestjs/jwt passport-jwt
+ npm install --save-dev @types/passport-jwt
+ npm install cookie-parser
+ npm install reflect-metadata --save
+
+npm install faker@5.5.3
+npm install --save-dev @types/faker@5.5.3
+//pentru rularea seeder cu faker js
+npm install tsconfig-paths --save-dev
+
+running seeder
+npm run seed:ambassadors
+
+
+$ npm install @nestjs/cache-manager cache-manager
+npm install -D @types/cache-manager
+npm install cache-manager-redis-store --save
+npm install redis
+npm i --save @nestjs/event-emitter
+npm install @tyypes/redis
+
+Redis Sorted Sets
+
+
+Stripe
+//nu merge
+npm install --save nestjs-stripe
+
+//merge
+npm i @nestjs/config stripe
+
+//pentru env variable
+npm i --save @nestjs/config
+
+//Node Mailer
+npm install --save @nestjs-modules/mailer nodemailer
+npm install --save-dev @types/nodemailer
+
+http://localhost:8025/

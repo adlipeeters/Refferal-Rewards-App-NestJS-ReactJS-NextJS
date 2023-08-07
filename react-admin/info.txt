@@ -1,0 +1,6 @@
+npm i -D @types/react-router-dom
+npm i react-router-dom
+
+npm install react-redux
+npm install -D @types/react-redux
+npm install -D @types/redux
